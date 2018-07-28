@@ -3,7 +3,7 @@ const span = document.querySelectorAll('p span');
 
 // add features from the API
 $('video, audio').mediaelementplayer({
-    features: ['playpause', 'fullscreen', 'volume', 'progress'],
+    useDefaultControls: true,
     startLanguage: 'en'
 });
 

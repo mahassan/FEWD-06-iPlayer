@@ -14,5 +14,9 @@ body {
   margin: 10px 0;
   font-size: 23px;
 }
+.wrapper .highlight {
+  background: #1B3440;
+  color: white;
+}
 
 /*# sourceMappingURL=style.css.map */
