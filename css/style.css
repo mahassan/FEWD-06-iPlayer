@@ -1,13 +1,18 @@
+/*variables*/
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 .wrapper {
   display: flex;
-  margin: 0 auto;
+  margin: 0 20px;
   max-width: 1400px;
   flex-direction: column;
-  align-content: center;
+  justify-content: center;
 }
 .wrapper p {
-  display: block;
-  font-size: 2rem;
+  margin: 10px 0;
+  font-size: 23px;
 }
 
 /*# sourceMappingURL=style.css.map */
