@@ -21,3 +21,10 @@ video.ontimeupdate = function () {
 
     }
 }
+const spanOne = document.querySelectorAll('p span');
+for(let i = 0; i <spanOne.length;i++ ){
+    spanOne[i].addEventListener('click', function(event){
+        //console.log(event.target);
+        video.currentTime = event.target.getAttribute('data-start');
+    }) 
+}
