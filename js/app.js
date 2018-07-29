@@ -8,7 +8,7 @@ $("video, audio").mediaelementplayer({
 });
 
 video.ontimeupdate = function () {
-    for(i = 0; i < span.length; i+=1) {
+    for(let i = 0; i < span.length; i+=1) {
         const timeSeek = video.currentTime;
         //.toFixed(3);
         if (timeSeek > span[i].getAttribute("data-start") 
