@@ -2,10 +2,13 @@ const video = document.getElementsByTagName("VIDEO")[0];
 const span = document.querySelectorAll("p span");
 
 // add features from the API
-$("video, audio").mediaelementplayer({
-    useDefaultControls: true,
-    startLanguage: "en"
-});
+$(document).ready(function(){
+    $("video, audio").mediaelementplayer({
+        useDefaultControls: true,
+        startLanguage: "en"
+    });
+})
+
 
 video.ontimeupdate = function () {
     for(let i = 0; i < span.length; i+=1) {
